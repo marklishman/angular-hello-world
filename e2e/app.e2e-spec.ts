@@ -9,6 +9,6 @@ describe('angular-hello-world App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getHeadindText()).toEqual('Hello World!');
   });
 });
